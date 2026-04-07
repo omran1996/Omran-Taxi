@@ -23,7 +23,7 @@ body {
 .header {
     
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://raw.githubusercontent.com/omran/repo/main/images//Mercedes-Benz_W210_E_320_black_\(1\).jpg');
+                url('images/Mercedes-Benz_W210_E_320_black_\(1\).jpg');
     background-size: cover;        /* تجعل الصورة تغطي المساحة بالكامل */
     background-position: center;   /* توسيط الصورة */
     background-repeat: no-repeat;  /* منع التكرار */

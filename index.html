@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>تاكسي عمران | توصيل آمن وسريع</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- القسم العلوي: شعار وزر الحجز -->
+        <div class="header">
+            <h1>🚖 تاكسي عمران</h1>
+            <p>توصيل من طرابلس إلى كل لبنان | خدمة آمنة وسريعة</p>
+            <a href="https://wa.me/96181464077?text=مرحباً،%20أريد%20حجز%20سيارة" class="whatsapp-btn" target="_blank">
+                📞 احجز الآن عبر واتساب
+            </a>
+        </div>
+
+        <!-- القسم المخصص للأطفال -->
+        <div class="kids-section">
+            <h2>👶 لطفلك الصغير</h2>
+            <div class="kids-options">
+                <div class="card">
+                    <h3>🎮 لعبة Stickman Battle</h3>
+                    <p>اضغط على الصورة لتلعب اللعبة في نافذة جديدة (آمن للأطفال)</p>
+                    <div class="photo">
+                        <a href="https://poki.com/ar/g/stickman-battle" target="_blank" rel="noopener noreferrer">
+                      <img src="/stikiman.jpg" alt="لعبة Stickman Battle" style="width:40%; border-radius:20px;">
+                        </a>
+                    </div>
+                   
+                </div>
+                <div class="card">
+                    <h3>📺 فيديو قصير</h3>
+                    <p>فيديو هادئ ومناسب للأطفال (ولادة الامام علي عليه السلام)</p>
+                    <div class="video-container">
+                        <!-- استبدل الرابط برابط فيديو يوتيوب مناسب (بدون إعلانات مزعجة) -->
+                        <iframe src="https://www.youtube.com/embed/NOOqCNvZm8Y?si=mqXg_Zea5QVdx-Ps" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- تذكير بسيط للأمهات -->
+        <div class="reminder">
+            <a href="https://wa.me/96181464077?text=مرحباً،%20أريد%20حجز%20سيارة" class="whatsapp-btn" target="_blank">
+                 💡 مشغول؟ طفلك مستمتع.. وأنتِ على بعد نقرة واحدة من تاكسي آمن
+                </a>
+           
+        </div>
+
+        <footer>
+            &copy; 2026 تاكسي عمران - خدمة توصيل طرابلس وكافة المناطق اللبنانية
+        </footer>
+    </div>
+
+    <script>
+        // تفاعل بسيط للعبة (تحريك السيارة عند النقر)
+        const car = document.getElementById('car');
+        let position = 0;
+        car.addEventListener('click', () => {
+            position = (position + 30) % 250;
+            car.style.transform = `translateX(${position}px)`;
+        });
+    </script>
+</body>
+</html>

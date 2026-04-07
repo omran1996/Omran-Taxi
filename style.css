@@ -23,7 +23,7 @@ body {
 .header {
     
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('/Mercedes-Benz_W210_E_320_black_(1).jpg');
+                url('/images/Mercedes-Benz_W210_E_320_black_\(1\).jpg');
     background-size: cover;        /* تجعل الصورة تغطي المساحة بالكامل */
     background-position: center;   /* توسيط الصورة */
     background-repeat: no-repeat;  /* منع التكرار */
@@ -92,7 +92,7 @@ body {
     background: #000;
 }
 .photo  {
-    margin-top: 10px;
+    margin-top: 10pxd;
 }
 
  .game-iframe-container iframe {

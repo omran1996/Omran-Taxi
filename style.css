@@ -80,6 +80,9 @@ body {
     gap: 30px;
     justify-content: center;
 }
+.kids-options p { 
+    margin-bottom: 20px;
+}
 
 .card {
     .game-iframe-container {
@@ -90,9 +93,6 @@ body {
     border-radius: 20px;
     overflow: hidden;
     background: #000;
-}
-.photo  {
-    margin-top: 10px;
 }
 
  .game-iframe-container iframe {
